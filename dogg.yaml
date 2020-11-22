@@ -1,0 +1,10 @@
+constraints:
+  processGroups:
+    - process: chrome
+      match: chrome.exe|Chrome\.app
+      cpu: 0.5
+      mem: 1
+    - process: skype
+      match: Skype.exe|Skype\.app
+      cpu: 0.5
+      mem: 1
